@@ -4,7 +4,7 @@ import events from '@/data'
 
 function HomePage() {
   return (
-    <div>
+    <div className='bg-gray-400'>
     {events.map((event, id) => (
       <MyCard 
         key={id}

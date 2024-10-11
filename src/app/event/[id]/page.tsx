@@ -15,24 +15,25 @@ const Event: FC<EventProps> = ({ params }) => {
 
   return (
     <div>
-        <div className='bg-blue-500 py-[150px]'>
+        <div className='bg-[#4dc4bc] py-[150px]'>
           <h1 className='text-black font-bold text-[50px] text-center mt-[-100px]'>{event?.title}</h1>
         </div>
-        <div className='bg-white w-[60%] mx-[270px] items-center mt-[-140px] text-black inline-flex'>
+        <div className='bg-gray-700 w-[60%] p-10 mx-[270px] items-center mt-[-140px] text-black inline-flex'>
           <Image
             src={event?.image || '/default-image.jpg'}
             alt={event?.title || 'Default Alt Text'}
             width={200}
-            height={100}
-            style={{borderRadius: '50%', margin: 'auto', display: 'block'}}
+            height={200}
+            style={{border: '1px solid white', borderRadius: '100%', margin: 'auto', display: 'block'}}
           />
           <div className='m-14'>         
             <h2 className='text-[30px] text-green-400 ml-[-20px]'>{event?.date}</h2>
             <h3 className='text-red-400 text-[20px]'>{event?.location}</h3>
-            <p className='text-[15px] text-center ml-10'>{event?.disription}</p>
-        </div>
+          </div>
         </div> 
-        
+        <div className='bg-gray-400 min-h-screen mt-[-220px]'>
+          <p className='text-[15px] text-center ml-10 pt-[280px]'>{event?.disription}</p>
+        </div>
     </div>
   )
 };

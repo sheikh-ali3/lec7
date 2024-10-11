@@ -8,7 +8,7 @@ function Card({ image, title, date, location, buttonText, link }) {
       <Image
         src={image}
         width={200}
-        height={100}
+        height={200}
         alt={title}
         className={"object-cover  rounded-lg"}
         style={{display: 'block', width: '40%', height: '220px'}}

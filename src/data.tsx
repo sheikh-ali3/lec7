@@ -1,7 +1,7 @@
 const events = [
     {
       id: "1",
-      image: "https://i.pinimg.com/564x/c6/5d/41/c65d41095846c3ced34638f8d2009518.jpg",
+      image: "https://i.pinimg.com/236x/90/44/a6/9044a634e09b2a633ff73efad0fdf470.jpg",
       title: "Programming for everyone",
       date: "May 12, 2021",
       location: "Somestreet 25, 12345 San Somewhereo",
@@ -13,7 +13,7 @@ const events = [
   
     {
       id: "2",
-      image: "https://i.pinimg.com/564x/07/61/ed/0761edf45aaf66b8c1e4333755635d85.jpg",
+      image: "https://i.pinimg.com/236x/5c/c3/60/5cc36043debce016b2ff374f687e950f.jpg",
       title: "Advanced Coding Workshop",
       date: "June 15, 2021",
       location: "Techstreet 45, 54321 San Techland",
